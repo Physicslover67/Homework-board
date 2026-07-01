@@ -58,7 +58,7 @@ function handleAssignmentSubmit(event) {
   saveAssignments(assignments);
 
   event.target.reset();
-  window.location.href = "classhomeworkboard.html";
+  window.location.href = "index.html";
 }
 
 document.addEventListener("DOMContentLoaded", () => {
